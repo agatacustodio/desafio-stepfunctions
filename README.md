@@ -2,6 +2,14 @@
 
 Este repositório demonstra um workflow automatizado para **solicitações de cash out via Pix** em uma fintech, utilizando **AWS Step Functions**, **AWS Lambda** e **DynamoDB**.
 
+---
+
+## O que é o AWS Step Functions?
+
+É um serviço de orquestração sem servidor que ajuda a construir aplicativos distribuídos, automatizar processos e orquestrar microsserviços conectando-os em fluxos de trabalho visuais.
+
+---
+
 ## Visão Geral
 
 O fluxo automatiza a retirada de saldo via Pix. Ele passa por validação, checagem de saldo e, se aprovado, **deduz o valor e tenta executar o Pix**. O fluxo contém lógica robusta para **tratamento de falhas**, incluindo estorno do saldo em caso de erro na API Pix ou registro de falha em qualquer etapa.
