@@ -121,24 +121,32 @@ exports.handler = async (event) => {
 ## 🚀 Implantação com AWS SAM
 
 sam build
+
 sam deploy --guided
 
 
 ## 🧾 Logs e Monitoramento
 
 Cada execução do Step Function é registrada no AWS CloudWatch.
+
 As falhas disparam alertas via SNS para o time de operações.
 
 ## 🔒 Segurança
 
 Permissões IAM mínimas necessárias (least privilege).
+
 Tokens e chaves Pix armazenadas no AWS Secrets Manager.
+
 Auditoria total de transações com CloudTrail.
 
 ## 🧰 Tecnologias
 
 AWS Step Functions
+
 AWS Lambda (Node.js 18.x)
+
 DynamoDB
+
 Amazon SNS / SES
+
 AWS SAM
