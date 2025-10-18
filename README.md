@@ -20,6 +20,13 @@ O fluxo automatiza a retirada de saldo via Pix, passando por validação, checag
 
 ---
 
+## Diagrama do Workflow
+
+
+<img width="918" height="969" alt="stepfunctions_graph" src="https://github.com/user-attachments/assets/b4ef44d8-e778-4777-835d-95de1cb77823" />
+
+---
+
 ## Arquitetura AWS
 
 | Serviço | Função |
