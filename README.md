@@ -18,12 +18,7 @@ O fluxo automatiza a retirada de saldo via Pix, passando por validação, checag
 6. **Registrar transação** → Cria log e registro de auditoria.
 7. **Notificar cliente** → Envia e-mail, push ou webhook com o status da operação.
 
-
-## Diagrama do Workflow
-
-![Workflow Cash Out via Pix](docs/cashout-diagram.png)
-
-
+---
 
 ## Arquitetura AWS
 
